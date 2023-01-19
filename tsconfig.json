@@ -1,0 +1,14 @@
+// A bunch of options we are specifying for the compiler
+{
+ "compilerOptions": {
+  "target": "es2017", // using es2017 ECMAScript standards
+  "module": "commonjs", // using "import" and "export" for modules
+  // variables can be "null" or "undefined" only if those values are explicitly defined as such
+  "strictNullChecks": true,
+  "esModuleInterop": true, // allows to import commonjs modules into an es6 codebase
+  "jsx": "react-jsx" // controls how jsx compiles into JS
+ },
+
+ // tells the compiler to apply all rules above to all files in the /sec directory
+ "include": ["./src"]
+}
