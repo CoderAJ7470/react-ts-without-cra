@@ -2,7 +2,12 @@ A practice project where I create a React app without using create-react-app (CR
 
 ### Some notes:
 
-To create a React project without CRA, I followed [this tutorial](https://www.youtube.com/watch?v=h3LpsM42s5o). Running the following commands in the terminal or GitBash for initial setup:
+To create a React project without CRA, I followed the following two tuorials:
+
+- [Tutorial one](https://www.youtube.com/watch?v=h3LpsM42s5o).
+- [Tutorial Two](https://www.youtube.com/watch?v=6Jek_IXXGz0&list=PLkqiWyX-_LouMp96EoFauiPlPPu9z3Rjl&index=1)
+
+I ran the following commands in the terminal or GitBash for initial setup:
 
 1. npm install react
 2. npm install react-dom
